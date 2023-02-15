@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.App {
+	max-width: 968px;
+	margin: 0 auto;
+}
+
+.title h1 {
+	color: rgb(202, 175, 139)
+}
+
+.title h2, .title p{
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.title h2 {
+	margin-top: 60px;
+	font-size: 2.5 rem;
 }

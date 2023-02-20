@@ -24,3 +24,4 @@
  const galeria_store = firebase.firestore();
 
  export { galeria, galeria_store };
+ 
